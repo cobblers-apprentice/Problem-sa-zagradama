@@ -16,6 +16,9 @@ namespace Problem_sa_zagradama
                 What is considered Valid?
                 A string of braces is considered valid if all braces are matched with the correct brace.
             */
+
+            Console.WriteLine("Unesi kombinaciju zagrada");
+            validBraces(Console.ReadLine());
         }
         public static bool validBraces(String braces)
         {
